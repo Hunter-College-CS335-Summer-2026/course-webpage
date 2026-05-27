@@ -10,7 +10,7 @@
 	}
 </script>
 
-<nav class="w-full bg-[#3F0157]">
+<nav class="fixed top-0 z-50 w-full bg-[#3F0157] shadow-lg">
 	<div class="container mx-auto p-5">
 		<div class="flex h-16 items-center justify-between">
 			<a
@@ -35,7 +35,7 @@
 			<div
 				class="lg:text-md ml-2 hidden space-x-6 text-sm font-semibold text-white md:flex xl:text-lg"
 			>
-				<a href="#" class="hover:font-bold hover:text-[#FCB827]">Projects</a>
+				<!-- <a href="#" class="hover:font-bold hover:text-[#FCB827]">Projects</a> -->
 				<a href="#" class="hover:font-bold hover:text-[#FCB827]">Syllabus</a>
 				<a href="#" class="hover:font-bold hover:text-[#FCB827]">Gradescope</a>
 			</div>
@@ -46,9 +46,9 @@
 				? 'flex'
 				: 'hidden'} lg:text-md flex-col text-center text-sm font-bold text-white md:hidden xl:text-lg"
 		>
-			<a href="#" class="block rounded px-2 py-2 hover:bg-[#FCB827] hover:text-[#3F0157]"
+			<!-- <a href="#" class="block rounded px-2 py-2 hover:bg-[#FCB827] hover:text-[#3F0157]"
 				>Projects</a
-			>
+			> -->
 			<a href="#" class="block rounded px-2 py-2 hover:bg-[#FCB827] hover:text-[#3F0157]"
 				>Syllabus</a
 			>
