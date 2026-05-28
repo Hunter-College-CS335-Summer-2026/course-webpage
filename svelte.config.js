@@ -18,7 +18,8 @@ const config = {
 				process.env.NODE_ENV === 'production'
 					? '/Hunter-College-CS335-Summer-2026/course-webpage'
 					: ''
-		}
+		},
+		relative: false
 	}
 };
 
