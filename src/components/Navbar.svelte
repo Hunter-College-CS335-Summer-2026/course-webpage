@@ -27,9 +27,12 @@
 			>
 				<Icon
 					icon="mdi:hamburger-menu-back"
-					class="{menu ? 'hidden' : 'flex'} h-6 w-6 text-white"
+					class="{menu ? 'hidden' : 'flex'} h-6 w-6 text-white hover:text-[#FCB827]"
 				/>
-				<Icon icon="mdi:menu-close" class="{menu ? 'flex' : 'hidden'} h-6 w-6 text-white" />
+				<Icon
+					icon="mdi:menu-close"
+					class="{menu ? 'flex' : 'hidden'} h-6 w-6 text-white hover:text-[#FCB827]"
+				/>
 			</button>
 			<!-- Regular Menu Items -->
 			<div
@@ -37,7 +40,7 @@
 			>
 				<!-- <a href="#" class="hover:font-bold hover:text-[#FCB827]">Projects</a> -->
 				<a href="#" class="hover:font-bold hover:text-[#FCB827]">Syllabus</a>
-				<a href="#" class="hover:font-bold hover:text-[#FCB827]">Gradescope</a>
+				<!-- <a href="#" class="hover:font-bold hover:text-[#FCB827]">Gradescope</a> -->
 			</div>
 		</div>
 		<!-- Mobile Menu Items -->
@@ -52,9 +55,9 @@
 			<a href="#" class="block rounded px-2 py-2 hover:bg-[#FCB827] hover:text-[#3F0157]"
 				>Syllabus</a
 			>
-			<a href="#" class="block rounded px-2 py-2 hover:bg-[#FCB827] hover:text-[#3F0157]"
+			<!-- <a href="#" class="block rounded px-2 py-2 hover:bg-[#FCB827] hover:text-[#3F0157]"
 				>Gradescope</a
-			>
+			> -->
 		</div>
 	</div>
 </nav>
