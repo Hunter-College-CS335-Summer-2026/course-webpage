@@ -27,7 +27,10 @@
 						<p>Review of CS235</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
-						<p class="text-blue-700 hover:opacity-75"><a href="#" target="_blank">Syllabus</a></p>
+						<p class="text-blue-700 hover:opacity-75">
+							<a href="/Syllabus.pdf" rel="external noopener noreferrer" target="_blank">Syllabus</a
+							>
+						</p>
 						<p class="text-blue-700 hover:opacity-75">
 							<a
 								href="https://hunter-college-cs235-summer-2024.github.io/Hunter_CS235_Summer24/"

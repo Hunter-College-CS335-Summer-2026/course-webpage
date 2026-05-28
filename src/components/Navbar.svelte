@@ -39,7 +39,12 @@
 				class="lg:text-md ml-2 hidden space-x-6 text-sm font-semibold text-white md:flex xl:text-lg"
 			>
 				<!-- <a href="#" class="hover:font-bold hover:text-[#FCB827]">Projects</a> -->
-				<a href="#" class="hover:font-bold hover:text-[#FCB827]">Syllabus</a>
+				<a
+					href="/Syllabus.pdf"
+					rel="external noopener noreferrer"
+					class="hover:font-bold hover:text-[#FCB827]"
+					target="_blank">Syllabus</a
+				>
 				<!-- <a href="#" class="hover:font-bold hover:text-[#FCB827]">Gradescope</a> -->
 			</div>
 		</div>
@@ -52,8 +57,11 @@
 			<!-- <a href="#" class="block rounded px-2 py-2 hover:bg-[#FCB827] hover:text-[#3F0157]"
 				>Projects</a
 			> -->
-			<a href="#" class="block rounded px-2 py-2 hover:bg-[#FCB827] hover:text-[#3F0157]"
-				>Syllabus</a
+			<a
+				href="/Syllabus.pdf"
+				rel="external noopener noreferrer"
+				class="block rounded px-2 py-2 hover:bg-[#FCB827] hover:text-[#3F0157]"
+				target="_blank">Syllabus</a
 			>
 			<!-- <a href="#" class="block rounded px-2 py-2 hover:bg-[#FCB827] hover:text-[#3F0157]"
 				>Gradescope</a
