@@ -9,7 +9,10 @@
 	let { children } = $props();
 </script>
 
-<svelte:head><link rel="icon" href={favicon} /></svelte:head>
+<svelte:head>
+	<title>Software Design and Analysis III</title>
+	<link rel="icon" href={favicon} />
+</svelte:head>
 <Navbar title="Software Design and Analysis III" />
 <div class="h-full w-full bg-linear-to-b from-[#FFFFFF] to-[#3f015730] p-2 pt-35 md:h-screen">
 	<Overview />
