@@ -1,3 +1,7 @@
+<script>
+	import { asset } from '$app/paths';
+</script>
+
 <div class="container mx-auto pt-10 pb-30">
 	<div class="-mx-4 overflow-x-auto px-4">
 		<table
@@ -28,7 +32,7 @@
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
 						<p class="text-blue-700 hover:opacity-75">
-							<a href="/Syllabus.pdf" rel="external noopener noreferrer" target="_blank">Syllabus</a
+							<a href={asset('/Syllabus.pdf')} rel="noopener noreferrer" target="_blank">Syllabus</a
 							>
 						</p>
 						<p class="text-blue-700 hover:opacity-75">

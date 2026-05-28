@@ -1,5 +1,5 @@
 <script>
-	import { resolve } from '$app/paths';
+	import { asset, resolve } from '$app/paths';
 	import Icon from '@iconify/svelte';
 
 	let { title = null } = $props();
@@ -40,8 +40,8 @@
 			>
 				<!-- <a href="#" class="hover:font-bold hover:text-[#FCB827]">Projects</a> -->
 				<a
-					href="/Syllabus.pdf"
-					rel="external noopener noreferrer"
+					href={asset('/Syllabus.pdf')}
+					rel="noopener noreferrer"
 					class="hover:font-bold hover:text-[#FCB827]"
 					target="_blank">Syllabus</a
 				>
@@ -58,8 +58,8 @@
 				>Projects</a
 			> -->
 			<a
-				href="/Syllabus.pdf"
-				rel="external noopener noreferrer"
+				href={asset('/Syllabus.pdf')}
+				rel="noopener noreferrer"
 				class="block rounded px-2 py-2 hover:bg-[#FCB827] hover:text-[#3F0157]"
 				target="_blank">Syllabus</a
 			>
