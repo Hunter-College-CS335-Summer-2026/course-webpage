@@ -4,7 +4,7 @@
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
-		"deploy": "pnpm build && pnpx gh-pages -d build -t true",
+		"deploy": "pnpm build && pnpx gh-pages -d build",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
