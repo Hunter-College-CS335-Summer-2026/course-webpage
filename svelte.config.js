@@ -23,6 +23,15 @@ const config = {
 				? '/Hunter-College-CS335-Summer-2026/course-webpage'
 				: '',
 			relative: false
+		},
+		prerender: {
+			handleHttpError: ({ path, message }) => {
+				if (path === '/') {
+					return;
+				}
+				throw new Error(message);
+			},
+			handleUnseenRoutes: 'ignore'
 		}
 	}
 };
