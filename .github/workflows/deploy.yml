@@ -11,19 +11,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install pnpm
+      - name: Install pnpm & Dependencies
         uses: pnpm/action-setup@v3
         with:
           version: 8
+          run_install: |
+            - args: [--no-frozen-lockfile]
 
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: pnpm
-
-      - name: Install dependencies
-        run: pnpm install --no-frozen-lockfile
 
       - name: Build SvelteKit Site
         run: pnpm run build
