@@ -20,7 +20,7 @@
 		</article>
 	</div>
 	<div class="flex shrink justify-center border-l-0 p-5 md:w-1/2 md:border-l-2">
-		<div class="lg:text-md space-y-2 self-center text-sm xl:space-y-1 xl:text-lg">
+		<div class="lg:text-md space-y-2 self-center text-xs md:text-sm xl:space-y-1 xl:text-lg">
 			<div class="flex items-start gap-2">
 				<div class="w-40 text-right font-bold text-[#3F0157]">Instructor:</div>
 				<div class="flex-1">Sadab Hafiz</div>

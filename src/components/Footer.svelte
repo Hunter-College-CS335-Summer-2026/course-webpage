@@ -1,4 +1,6 @@
-<footer class="fixed bottom-0 w-full bg-[#3f0157] p-5 text-center font-mono text-white shadow-lg">
+<footer
+	class="lg:text-md fixed bottom-0 w-full bg-[#3f0157] p-5 text-center text-[8pt] text-white shadow-lg md:text-sm"
+>
 	<p>
 		This website was made using
 		<a
