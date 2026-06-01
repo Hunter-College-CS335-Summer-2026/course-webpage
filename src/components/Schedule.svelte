@@ -45,6 +45,24 @@
 					<td class="border border-[#3F0157] p-3"></td>
 					<td class="border border-[#3F0157] p-3"></td>
 				</tr>
+				<tr class="md:text-md text-sm lg:text-lg">
+					<td class="border border-[#3F0157] p-3 font-semibold">06/01</td>
+					<td class="border border-[#3F0157] p-3">
+						<p>Mathematics Review</p>
+						<p>Complexity Analysis</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href={asset('/slides/01_Mathematical_Background.pdf')}
+								rel="noopener noreferrer"
+								target="_blank">Mathematical Background</a
+							>
+						</p>
+					</td>
+					<td class="border border-[#3F0157] p-3"></td>
+					<td class="border border-[#3F0157] p-3"></td>
+				</tr>
 			</tbody>
 		</table>
 	</div>

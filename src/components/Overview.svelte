@@ -53,7 +53,7 @@
 			</div>
 			<div class="flex items-start gap-2">
 				<div class="w-40 text-right font-bold text-[#3F0157]">Location:</div>
-				<div class="flex-1">Hunter North 1001B</div>
+				<div class="flex-1">Hunter West 207</div>
 			</div>
 			<div class="flex items-start gap-2">
 				<div class="w-40 text-right font-bold text-[#3F0157]">Days:</div>
