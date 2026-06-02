@@ -5,9 +5,11 @@
 	import Schedule from '../components/Schedule.svelte';
 </script>
 
-<Navbar title="Software Design and Analysis III" />
-<div class="h-full w-full bg-linear-to-b from-[#FFFFFF] to-[#3f015730] p-2 pt-35 md:h-screen">
-	<Overview />
-	<Schedule />
+<div class="flex min-h-screen w-full flex-col">
+	<Navbar title="Software Design and Analysis III" />
+	<div class="grow bg-linear-to-b from-[#FFFFFF] to-[#3f015730] p-2 pt-35">
+		<Overview />
+		<Schedule />
+	</div>
+	<Footer />
 </div>
-<Footer />

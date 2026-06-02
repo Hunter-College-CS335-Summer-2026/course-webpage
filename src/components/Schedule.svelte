@@ -1,5 +1,7 @@
 <script>
 	import { asset } from '$app/paths';
+	import { tooltip } from 'svooltip';
+	import 'svooltip/styles.css';
 </script>
 
 <div class="container mx-auto pt-10 pb-30">
@@ -49,7 +51,7 @@
 					<td class="border border-[#3F0157] p-3 font-semibold">06/01</td>
 					<td class="border border-[#3F0157] p-3">
 						<p>Mathematics Review</p>
-						<p>Complexity Analysis</p>
+						<p>Sorting Review</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
 						<p class="text-blue-700 hover:opacity-75">
@@ -62,6 +64,74 @@
 					</td>
 					<td class="border border-[#3F0157] p-3"></td>
 					<td class="border border-[#3F0157] p-3"></td>
+				</tr>
+				<tr class="md:text-md text-sm lg:text-lg">
+					<td class="border border-[#3F0157] p-3 font-semibold">06/02</td>
+					<td class="border border-[#3F0157] p-3">
+						<p>Algorithm Analysis</p>
+						<p>Sorting Continued</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href={asset('/slides/02_Algorithm_Analysis.pdf')}
+								rel="noopener noreferrer"
+								target="_blank">Algorithm Analysis</a
+							>
+						</p>
+					</td>
+					<td class="border border-[#3F0157] p-3"></td>
+					<td class="border border-[#3F0157] p-3"></td>
+				</tr>
+				<tr class="md:text-md text-sm lg:text-lg">
+					<td class="border border-[#3F0157] p-3 font-semibold">06/03</td>
+					<td class="border border-[#3F0157] p-3">
+						<!-- <p>Algorithm Analysis</p> -->
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<!-- <p class="text-blue-700 hover:opacity-75">
+							<a
+								href={asset('/slides/02_Algorithm_Analysis.pdf')}
+								rel="noopener noreferrer"
+								target="_blank">Algorithm Analysis</a
+							>
+						</p> -->
+					</td>
+					<td class="border border-[#3F0157] p-3"></td>
+					<td class="border border-[#3F0157] p-3"></td>
+				</tr>
+				<tr class="md:text-md text-sm lg:text-lg">
+					<td class="border border-[#3F0157] p-3 font-semibold">06/04</td>
+					<td class="border border-[#3F0157] p-3">
+						<!-- <p>Algorithm Analysis</p> -->
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<!-- <p class="text-blue-700 hover:opacity-75">
+							<a
+								href={asset('/slides/02_Algorithm_Analysis.pdf')}
+								rel="noopener noreferrer"
+								target="_blank">Algorithm Analysis</a
+							>
+						</p> -->
+					</td>
+					<td class="border border-[#3F0157] p-3"></td>
+					<td class="border border-[#3F0157] p-3 font-bold">
+						<button
+							use:tooltip={{
+								content: `<div class='text-center text-[#FCB827] p-2'>
+									<div>Mathematics Background</div>
+									<div>Algorithm Analysis</div>
+									<div>Big-O Notation</div>
+								</div>`,
+								html: true,
+								placement: 'top',
+								offset: 15
+							}}
+							class="cursor-pointer hover:font-bold"
+						>
+							Quiz 1
+						</button>
+					</td>
 				</tr>
 			</tbody>
 		</table>

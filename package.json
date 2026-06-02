@@ -47,5 +47,8 @@
 	"lint-staged": {
 		"*.{js,ts,svelte}": "eslint --cache --fix",
 		"*.{js,ts,css,scss,md,svelte}": "prettier --write"
+	},
+	"dependencies": {
+		"svooltip": "^0.9.0"
 	}
 }
