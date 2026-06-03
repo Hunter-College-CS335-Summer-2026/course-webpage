@@ -86,18 +86,26 @@
 				<tr class="md:text-md text-sm lg:text-lg">
 					<td class="border border-[#3F0157] p-3 font-semibold">06/03</td>
 					<td class="border border-[#3F0157] p-3">
-						<!-- <p>Algorithm Analysis</p> -->
+						<p>Function Analysis</p>
+						<p>Recursion</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
-						<!-- <p class="text-blue-700 hover:opacity-75">
+						<p class="text-blue-700 hover:opacity-75">
 							<a
-								href={asset('/slides/02_Algorithm_Analysis.pdf')}
+								href={asset('/slides/03_Function_Analysis.pdf')}
 								rel="noopener noreferrer"
-								target="_blank">Algorithm Analysis</a
+								target="_blank">Function Analysis</a
 							>
-						</p> -->
+						</p>
 					</td>
-					<td class="border border-[#3F0157] p-3"></td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href="https://colab.research.google.com/drive/1Ao9AIOC_unVk2s4C7hwyu020mUSrgTct?usp=sharing"
+								target="_blank">Sorting Demo</a
+							>
+						</p>
+					</td>
 					<td class="border border-[#3F0157] p-3"></td>
 				</tr>
 				<tr class="md:text-md text-sm lg:text-lg">
@@ -120,14 +128,15 @@
 							use:tooltip={{
 								content: `<div class='text-center text-[#FCB827] p-2'>
 									<div>Mathematics Background</div>
-									<div>Algorithm Analysis</div>
 									<div>Big-O Notation</div>
+									<div>Algorithm Analysis</div>
+									<div>Function Analysis</div>
 								</div>`,
 								html: true,
 								placement: 'top',
 								offset: 15
 							}}
-							class="cursor-pointer hover:font-bold"
+							class="cursor-pointer hover:opacity-75"
 						>
 							Quiz 1
 						</button>
