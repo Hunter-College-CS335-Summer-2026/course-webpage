@@ -1,3 +1,7 @@
+<script>
+	import 'svooltip/styles.css';
+</script>
+
 <div
 	class="container mx-auto flex flex-col rounded border-2 border-[#3F0157] font-sans md:flex-row md:gap-5"
 >
@@ -35,7 +39,7 @@
 			</div>
 			<div class="flex items-start gap-2">
 				<div class="w-40 text-right font-bold text-[#3F0157]">Office-Hours:</div>
-				<div class="flex-1">TBA (?)</div>
+				<div class="flex-1">in person (by request)</div>
 			</div>
 			<div class="flex items-start gap-2">
 				<div class="w-40 text-right font-bold text-[#3F0157]">Email:</div>

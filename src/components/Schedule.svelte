@@ -111,16 +111,17 @@
 				<tr class="md:text-md text-sm lg:text-lg">
 					<td class="border border-[#3F0157] p-3 font-semibold">06/04</td>
 					<td class="border border-[#3F0157] p-3">
-						<!-- <p>Algorithm Analysis</p> -->
+						<p>Class Templates</p>
+						<p>Linear ADT Review</p>
+						<p>Sorting Continued</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
-						<!-- <p class="text-blue-700 hover:opacity-75">
+						<p class="text-blue-700 hover:opacity-75">
 							<a
-								href={asset('/slides/02_Algorithm_Analysis.pdf')}
-								rel="noopener noreferrer"
-								target="_blank">Algorithm Analysis</a
+								href="https://hunter-college-cs235-summer-2024.github.io/Hunter_CS235_Summer24/"
+								target="_blank">CS235 Course Webpage</a
 							>
-						</p> -->
+						</p>
 					</td>
 					<td class="border border-[#3F0157] p-3"></td>
 					<td class="border border-[#3F0157] p-3 font-bold">
@@ -136,7 +137,7 @@
 								placement: 'top',
 								offset: 15
 							}}
-							class="cursor-pointer hover:opacity-75"
+							class="cursor-pointer text-[#3F0157] hover:opacity-75"
 						>
 							Quiz 1
 						</button>

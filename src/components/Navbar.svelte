@@ -45,7 +45,11 @@
 					class="hover:font-bold hover:text-[#FCB827]"
 					target="_blank">Syllabus</a
 				>
-				<!-- <a href="#" class="hover:font-bold hover:text-[#FCB827]">Gradescope</a> -->
+				<a
+					href="https://www.gradescope.com/courses/1322874"
+					class="hover:font-bold hover:text-[#FCB827]"
+					target="_blank">Gradescope</a
+				>
 			</div>
 		</div>
 		<!-- Mobile Menu Items -->
@@ -63,9 +67,11 @@
 				class="block rounded px-2 py-2 hover:bg-[#FCB827] hover:text-[#3F0157]"
 				target="_blank">Syllabus</a
 			>
-			<!-- <a href="#" class="block rounded px-2 py-2 hover:bg-[#FCB827] hover:text-[#3F0157]"
-				>Gradescope</a
-			> -->
+			<a
+				href="https://www.gradescope.com/courses/1322874"
+				class="block rounded px-2 py-2 hover:bg-[#FCB827] hover:text-[#3F0157]"
+				target="_blank">Gradescope</a
+			>
 		</div>
 	</div>
 </nav>
