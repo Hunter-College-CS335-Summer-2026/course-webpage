@@ -51,7 +51,7 @@
 					<td class="border border-[#3F0157] p-3 font-semibold">06/01</td>
 					<td class="border border-[#3F0157] p-3">
 						<p>Mathematics Review</p>
-						<p>Sorting Review</p>
+						<p>Selection Sort</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
 						<p class="text-blue-700 hover:opacity-75">
@@ -61,15 +61,29 @@
 								target="_blank">Mathematical Background</a
 							>
 						</p>
+						<p class="text-blue-700 hover:opacity-75">
+							<a href={asset('/slides/00_Sorting.pdf')} rel="noopener noreferrer" target="_blank"
+								>Sorting Review</a
+							>
+						</p>
 					</td>
-					<td class="border border-[#3F0157] p-3"></td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href="https://ece.uwaterloo.ca/~dwharder/aads/Lecture_materials/1.02.Mathematical_background.pdf"
+								rel="noopener noreferrer"
+								target="_blank">Reading(Optional)</a
+							>
+						</p>
+					</td>
 					<td class="border border-[#3F0157] p-3"></td>
 				</tr>
 				<tr class="md:text-md text-sm lg:text-lg">
 					<td class="border border-[#3F0157] p-3 font-semibold">06/02</td>
 					<td class="border border-[#3F0157] p-3">
 						<p>Algorithm Analysis</p>
-						<p>Sorting Continued</p>
+						<p>Insertion Sort</p>
+						<p>Bubble Sort</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
 						<p class="text-blue-700 hover:opacity-75">
@@ -79,8 +93,28 @@
 								target="_blank">Algorithm Analysis</a
 							>
 						</p>
+						<p class="text-blue-700 hover:opacity-75">
+							<a href={asset('/slides/00_Sorting.pdf')} rel="noopener noreferrer" target="_blank"
+								>Sorting Review</a
+							>
+						</p>
 					</td>
-					<td class="border border-[#3F0157] p-3"></td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href="https://ece.uwaterloo.ca/~dwharder/aads/Lecture_materials/1.04.Proof_by_induction.pdfinary_trees.Questions.pdf"
+								rel="noopener noreferrer"
+								target="_blank">Induction(Practice)</a
+							>
+						</p>
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href="https://ece.uwaterloo.ca/~dwharder/aads/Lecture_materials/2.03.Asymptotic_analysis.pdf"
+								rel="noopener noreferrer"
+								target="_blank">Reading(Optional)</a
+							>
+						</p>
+					</td>
 					<td class="border border-[#3F0157] p-3"></td>
 				</tr>
 				<tr class="md:text-md text-sm lg:text-lg">
@@ -105,6 +139,9 @@
 								target="_blank">Sorting Demo</a
 							>
 						</p>
+						<p class="font-mono text-blue-700 hover:opacity-75">
+							<a href={asset('/code/recursion.cpp')} download>Code(recursion)</a>
+						</p>
 					</td>
 					<td class="border border-[#3F0157] p-3"></td>
 				</tr>
@@ -112,18 +149,39 @@
 					<td class="border border-[#3F0157] p-3 font-semibold">06/04</td>
 					<td class="border border-[#3F0157] p-3">
 						<p>Class Templates</p>
-						<p>Linear ADT Review</p>
-						<p>Sorting Continued</p>
+						<p>List Review</p>
+						<p>Merge Sort</p>
+						<p>Quick Sort</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="text-blue-700 hover:opacity-75">
+							<a href={asset('/slides/00_Templates.pdf')} rel="noopener noreferrer" target="_blank"
+								>Templates</a
+							>
+						</p>
+						<p class="text-blue-700 hover:opacity-75">
+							<a href={asset('/slides/00_Lists.pdf')} rel="noopener noreferrer" target="_blank"
+								>Linked List</a
+							>
+						</p>
+						<p class="text-blue-700 hover:opacity-75">
+							<a href={asset('/slides/00_Sorting.pdf')} rel="noopener noreferrer" target="_blank"
+								>Sorting Review</a
+							>
+						</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
 						<p class="text-blue-700 hover:opacity-75">
 							<a
-								href="https://hunter-college-cs235-summer-2024.github.io/Hunter_CS235_Summer24/"
-								target="_blank">CS235 Course Webpage</a
+								href="https://www.cs.usfca.edu/~galles/visualization/Algorithms.html"
+								rel="noopener noreferrer"
+								target="_blank">Data Visualization</a
 							>
 						</p>
+						<p class="font-mono text-blue-700 hover:opacity-75">
+							<a href={asset('/code/LinkedList.zip')} download>Code(LinkedList)</a>
+						</p>
 					</td>
-					<td class="border border-[#3F0157] p-3"></td>
 					<td class="border border-[#3F0157] p-3 font-bold">
 						<button
 							use:tooltip={{
@@ -141,6 +199,152 @@
 						>
 							Quiz 1
 						</button>
+					</td>
+				</tr>
+				<tr class="md:text-md text-sm lg:text-lg">
+					<td class="border border-[#3F0157] p-3 font-semibold">06/08</td>
+					<td class="border border-[#3F0157] p-3">
+						<p>Stack and Queue</p>
+						<p>Linear ADT</p>
+						<p>C++ STL Containers</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href={asset('/slides/00_Stack&Queue.pdf')}
+								rel="noopener noreferrer"
+								target="_blank">Stack and Queue</a
+							>
+						</p>
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href={asset('/slides/04_Sequence_Containers.pdf')}
+								rel="noopener noreferrer"
+								target="_blank">Sequence Containers</a
+							>
+						</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href="https://cplusplus.com/reference/stl/"
+								rel="noopener noreferrer"
+								target="_blank">STL Containers</a
+							>
+						</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-bold"></td>
+				</tr>
+				<tr class="md:text-md text-sm lg:text-lg">
+					<td class="border border-[#3F0157] p-3 font-semibold">06/09</td>
+					<td class="border border-[#3F0157] p-3">
+						<p>TBA</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<!-- <p class="text-blue-700 hover:opacity-75">
+							<a
+								href={asset('/slides/TBA')}
+								rel="noopener noreferrer"
+								target="_blank">TBA</a
+							>
+						</p> -->
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold"></td>
+					<td class="border border-[#3F0157] p-3 font-bold">
+						<button
+							use:tooltip={{
+								content: `<div class='text-center text-[#FCB827] p-2'>
+									<div>Class Templates</div>
+									<div>Linked List</div>
+									<div>Stack and Queue</div>
+									<div>Sequence Containers</div>
+								</div>`,
+								html: true,
+								placement: 'top',
+								offset: 15
+							}}
+							class="cursor-pointer text-[#3F0157] hover:opacity-75"
+						>
+							Quiz 2
+						</button>
+					</td>
+				</tr>
+				<tr class="md:text-md text-sm lg:text-lg">
+					<td class="border border-[#3F0157] p-3 font-semibold">06/10</td>
+					<td class="border border-[#3F0157] p-3">
+						<p>TBA</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<!-- <p class="text-blue-700 hover:opacity-75">
+							<a
+								href={asset('/slides/TBA')}
+								rel="noopener noreferrer"
+								target="_blank">TBA</a
+							>
+						</p> -->
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold"></td>
+					<td class="border border-[#3F0157] p-3 font-bold"></td>
+				</tr>
+				<tr class="md:text-md text-sm lg:text-lg">
+					<td class="border border-[#3F0157] p-3 font-semibold">06/11</td>
+					<td class="border border-[#3F0157] p-3">
+						<p>TBA</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<!-- <p class="text-blue-700 hover:opacity-75">
+							<a
+								href={asset('/slides/TBA')}
+								rel="noopener noreferrer"
+								target="_blank">TBA</a
+							>
+						</p> -->
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold"></td>
+					<td class="border border-[#3F0157] p-3 font-bold">
+						<button
+							use:tooltip={{
+								content: `<div class='text-center text-[#FCB827] p-2'>
+									<div>TBA</div>
+								</div>`,
+								html: true,
+								placement: 'top',
+								offset: 15
+							}}
+							class="cursor-pointer text-[#3F0157] hover:opacity-75"
+						>
+							Quiz 3
+						</button>
+					</td>
+				</tr>
+				<tr class="md:text-md text-sm lg:text-lg">
+					<td class="border border-[#3F0157] p-3 font-semibold">06/22</td>
+					<td class="border border-[#3F0157] p-3 font-bold text-red-700">
+						<p>MIDTERM</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-bold text-red-700">
+						<p>MIDTERM</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-bold text-red-700">
+						<p>MIDTERM</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-bold text-red-700">
+						<p>MIDTERM</p>
+					</td>
+				</tr>
+				<tr class="md:text-md text-sm lg:text-lg">
+					<td class="border border-[#3F0157] p-3 font-semibold">07/08</td>
+					<td class="border border-[#3F0157] p-3 font-bold text-red-700">
+						<p>FINAL</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-bold text-red-700">
+						<p>FINAL</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-bold text-red-700">
+						<p>FINAL</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-bold text-red-700">
+						<p>FINAL</p>
 					</td>
 				</tr>
 			</tbody>
