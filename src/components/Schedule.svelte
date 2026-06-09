@@ -238,18 +238,41 @@
 				<tr class="md:text-md text-sm lg:text-lg">
 					<td class="border border-[#3F0157] p-3 font-semibold">06/09</td>
 					<td class="border border-[#3F0157] p-3">
-						<p>TBA</p>
+						<p>Trees Review</p>
+						<p>Heap</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
-						<!-- <p class="text-blue-700 hover:opacity-75">
-							<a
-								href={asset('/slides/TBA')}
-								rel="noopener noreferrer"
-								target="_blank">TBA</a
+						<p class="text-blue-700 hover:opacity-75">
+							<a href={asset('/slides/00_Trees.pdf')} rel="noopener noreferrer" target="_blank"
+								>Trees Introduction</a
 							>
-						</p> -->
+						</p>
+						<p class="text-blue-700 hover:opacity-75">
+							<a href={asset('/slides/00_Heap.pdf')} rel="noopener noreferrer" target="_blank"
+								>Heap</a
+							>
+						</p>
 					</td>
-					<td class="border border-[#3F0157] p-3 font-semibold"></td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href="https://cplusplus.com/reference/algorithm/make_heap/?kw=make_heap"
+								rel="noopener noreferrer"
+								target="_blank"
+							>
+								std::make_heap
+							</a>
+						</p>
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href="https://cplusplus.com/reference/queue/priority_queue/"
+								rel="noopener noreferrer"
+								target="_blank"
+							>
+								std::priority_queue
+							</a>
+						</p>
+					</td>
 					<td class="border border-[#3F0157] p-3 font-bold">
 						<button
 							use:tooltip={{
@@ -315,6 +338,24 @@
 						>
 							Quiz 3
 						</button>
+					</td>
+				</tr>
+				<tr class="md:text-md text-sm lg:text-lg">
+					<td class="border border-[#3F0157] p-3 font-semibold">06/20</td>
+					<td class="border border-[#3F0157] p-3">
+						<p>N/A</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold"></td>
+					<td class="border border-[#3F0157] p-3 font-semibold"></td>
+					<td class="border border-[#3F0157] p-3 font-bold">
+						<a
+							href={asset('/projects/Project_01.pdf')}
+							rel="noopener noreferrer"
+							target="_blank"
+							class="cursor-pointer text-[#3F0157] hover:opacity-75"
+						>
+							Project 1
+						</a>
 					</td>
 				</tr>
 				<tr class="md:text-md text-sm lg:text-lg">
