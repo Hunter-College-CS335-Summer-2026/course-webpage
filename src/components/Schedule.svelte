@@ -240,6 +240,7 @@
 					<td class="border border-[#3F0157] p-3">
 						<p>Trees Review</p>
 						<p>Heap</p>
+						<p>Priority Queue</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
 						<p class="text-blue-700 hover:opacity-75">
@@ -272,6 +273,16 @@
 								std::priority_queue
 							</a>
 						</p>
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href="https://www.cs.hunter.cuny.edu/~sweiss/course_materials/csci335/lecture_notes/chapter06.pdf"
+								rel="noopener noreferrer"
+								target="_blank">Reading(Optional)</a
+							>
+						</p>
+						<p class="font-mono text-blue-700 hover:opacity-75">
+							<a href={asset('/code/heapsort.cpp')} download>Code(Heapsort)</a>
+						</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-bold">
 						<button
@@ -295,18 +306,23 @@
 				<tr class="md:text-md text-sm lg:text-lg">
 					<td class="border border-[#3F0157] p-3 font-semibold">06/10</td>
 					<td class="border border-[#3F0157] p-3">
-						<p>TBA</p>
+						<p>C++11 Improvements</p>
+						<p>Rule of Five</p>
+						<p>Copy and Move</p>
+						<p>Smart Pointers</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
-						<!-- <p class="text-blue-700 hover:opacity-75">
-							<a
-								href={asset('/slides/TBA')}
-								rel="noopener noreferrer"
-								target="_blank">TBA</a
+						<p class="text-blue-700 hover:opacity-75">
+							<a href={asset('/slides/05_C++11.pdf')} rel="noopener noreferrer" target="_blank"
+								>C++11</a
 							>
-						</p> -->
+						</p>
 					</td>
-					<td class="border border-[#3F0157] p-3 font-semibold"></td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="font-mono text-blue-700 hover:opacity-75">
+							<a href={asset('/code/BigFive.zip')} download>Code(BigFive)</a>
+						</p>
+					</td>
 					<td class="border border-[#3F0157] p-3 font-bold"></td>
 				</tr>
 				<tr class="md:text-md text-sm lg:text-lg">
@@ -328,7 +344,11 @@
 						<button
 							use:tooltip={{
 								content: `<div class='text-center text-[#FCB827] p-2'>
-									<div>TBA</div>
+									<div>Trees</div>
+									<div>Heaps</div>
+									<div>C++11</div>
+									<div>Big Five</div>
+									<div>Smart Pointers</div>
 								</div>`,
 								html: true,
 								placement: 'top',
