@@ -328,18 +328,27 @@
 				<tr class="md:text-md text-sm lg:text-lg">
 					<td class="border border-[#3F0157] p-3 font-semibold">06/11</td>
 					<td class="border border-[#3F0157] p-3">
-						<p>TBA</p>
+						<p>Binary Search Trees</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
-						<!-- <p class="text-blue-700 hover:opacity-75">
-							<a
-								href={asset('/slides/TBA')}
-								rel="noopener noreferrer"
-								target="_blank">TBA</a
+						<p class="text-blue-700 hover:opacity-75">
+							<a href={asset('/slides/00_BST.pdf')} rel="noopener noreferrer" target="_blank"
+								>Binary Search Trees</a
 							>
-						</p> -->
+						</p>
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href="https://www.cs.hunter.cuny.edu/~sweiss/resources/iterators.pdf"
+								rel="noopener noreferrer"
+								target="_blank">Iterators</a
+							>
+						</p>
 					</td>
-					<td class="border border-[#3F0157] p-3 font-semibold"></td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="font-mono text-blue-700 hover:opacity-75">
+							<a href={asset('/code/BST.zip')} download>Code(BST)</a>
+						</p>
+					</td>
 					<td class="border border-[#3F0157] p-3 font-bold">
 						<button
 							use:tooltip={{
