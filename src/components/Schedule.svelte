@@ -336,17 +336,17 @@
 								>Binary Search Trees</a
 							>
 						</p>
-						<p class="text-blue-700 hover:opacity-75">
-							<a
-								href="https://www.cs.hunter.cuny.edu/~sweiss/resources/iterators.pdf"
-								rel="noopener noreferrer"
-								target="_blank">Iterators</a
-							>
-						</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
 						<p class="font-mono text-blue-700 hover:opacity-75">
 							<a href={asset('/code/BST.zip')} download>Code(BST)</a>
+						</p>
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href="https://www.cs.usfca.edu/~galles/visualization/BST.html"
+								rel="noopener noreferrer"
+								target="_blank">BST Visualization</a
+							>
 						</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-bold">
@@ -366,6 +366,73 @@
 							class="cursor-pointer text-[#3F0157] hover:opacity-75"
 						>
 							Quiz 3
+						</button>
+					</td>
+				</tr>
+				<tr class="md:text-md text-sm lg:text-lg">
+					<td class="border border-[#3F0157] p-3 font-semibold">06/15</td>
+					<td class="border border-[#3F0157] p-3">
+						<p>AVL Trees</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="text-blue-700 hover:opacity-75">
+							<a href={asset('/slides/06_AVL_Trees.pdf')} rel="noopener noreferrer" target="_blank"
+								>AVL Trees</a
+							>
+						</p>
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href="https://www.cs.hunter.cuny.edu/~sweiss/resources/iterators.pdf"
+								rel="noopener noreferrer"
+								target="_blank">Iterators</a
+							>
+						</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href="https://www.cs.usfca.edu/~galles/visualization/AVLtree.html"
+								rel="noopener noreferrer"
+								target="_blank">AVL Visualization</a
+							>
+						</p>
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href="https://www.cs.hunter.cuny.edu/~sweiss/course_materials/csci335/lecture_notes/chapter04.2.pdf"
+								rel="noopener noreferrer"
+								target="_blank">Reading(Optional)</a
+							>
+						</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-bold"></td>
+				</tr>
+				<tr class="md:text-md text-sm lg:text-lg">
+					<td class="border border-[#3F0157] p-3 font-semibold">06/16</td>
+					<td class="border border-[#3F0157] p-3">
+						<!-- <p>TBA</p> -->
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<!-- <p class="text-blue-700 hover:opacity-75">
+							<a href={asset('/slides/TBA.pdf')} rel="noopener noreferrer" target="_blank"
+								>TBA</a
+							>
+						</p> -->
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold"></td>
+					<td class="border border-[#3F0157] p-3 font-bold">
+						<button
+							use:tooltip={{
+								content: `<div class='text-center text-[#FCB827] p-2'>
+									<div>Binary Search Trees</div>
+									<div>AVL Trees</div>
+								</div>`,
+								html: true,
+								placement: 'top',
+								offset: 15
+							}}
+							class="cursor-pointer text-[#3F0157] hover:opacity-75"
+						>
+							Quiz 4
 						</button>
 					</td>
 				</tr>
