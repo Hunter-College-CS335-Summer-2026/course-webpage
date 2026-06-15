@@ -380,13 +380,6 @@
 								>AVL Trees</a
 							>
 						</p>
-						<p class="text-blue-700 hover:opacity-75">
-							<a
-								href="https://www.cs.hunter.cuny.edu/~sweiss/resources/iterators.pdf"
-								rel="noopener noreferrer"
-								target="_blank">Iterators</a
-							>
-						</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
 						<p class="text-blue-700 hover:opacity-75">
@@ -409,14 +402,17 @@
 				<tr class="md:text-md text-sm lg:text-lg">
 					<td class="border border-[#3F0157] p-3 font-semibold">06/16</td>
 					<td class="border border-[#3F0157] p-3">
-						<!-- <p>TBA</p> -->
+						<p>AVL Trees (cont.)</p>
+						<p>Iterators</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
-						<!-- <p class="text-blue-700 hover:opacity-75">
-							<a href={asset('/slides/TBA.pdf')} rel="noopener noreferrer" target="_blank"
-								>TBA</a
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href="https://www.cs.hunter.cuny.edu/~sweiss/resources/iterators.pdf"
+								rel="noopener noreferrer"
+								target="_blank">Iterators</a
 							>
-						</p> -->
+						</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold"></td>
 					<td class="border border-[#3F0157] p-3 font-bold">
@@ -424,7 +420,7 @@
 							use:tooltip={{
 								content: `<div class='text-center text-[#FCB827] p-2'>
 									<div>Binary Search Trees</div>
-									<div>AVL Trees</div>
+									<div>AVL Trees Insert</div>
 								</div>`,
 								html: true,
 								placement: 'top',
