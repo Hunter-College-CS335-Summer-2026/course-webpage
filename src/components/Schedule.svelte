@@ -407,6 +407,11 @@
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
 						<p class="text-blue-700 hover:opacity-75">
+							<a href={asset('/slides/06_AVL_Trees.pdf')} rel="noopener noreferrer" target="_blank"
+								>AVL Trees</a
+							>
+						</p>
+						<p class="text-blue-700 hover:opacity-75">
 							<a
 								href="https://www.cs.hunter.cuny.edu/~sweiss/resources/iterators.pdf"
 								rel="noopener noreferrer"
@@ -414,7 +419,18 @@
 							>
 						</p>
 					</td>
-					<td class="border border-[#3F0157] p-3 font-semibold"></td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href="https://www.geeksforgeeks.org/cpp/introduction-iterators-c/"
+								rel="noopener noreferrer"
+								target="_blank">Iterators(STL)</a
+							>
+						</p>
+						<p class="font-mono text-blue-700 hover:opacity-75">
+							<a href={asset('/code/iterator.cpp')} download>Code(Iterator)</a>
+						</p>
+					</td>
 					<td class="border border-[#3F0157] p-3 font-bold">
 						<button
 							use:tooltip={{
