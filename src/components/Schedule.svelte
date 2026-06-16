@@ -449,6 +449,65 @@
 					</td>
 				</tr>
 				<tr class="md:text-md text-sm lg:text-lg">
+					<td class="border border-[#3F0157] p-3 font-semibold">06/17</td>
+					<td class="border border-[#3F0157] p-3">
+						<p>Sorting</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="text-blue-700 hover:opacity-75">
+							<a href={asset('/slides/07_Sorting.pdf')} rel="noopener noreferrer" target="_blank"
+								>Sorting</a
+							>
+						</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href="https://colab.research.google.com/drive/1Ao9AIOC_unVk2s4C7hwyu020mUSrgTct?usp=sharing"
+								target="_blank">Sorting Demo</a
+							>
+						</p>
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href="https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html"
+								rel="noopener noreferrer"
+								target="_blank">Sorting Visualization</a
+							>
+						</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-bold"></td>
+				</tr>
+				<tr class="md:text-md text-sm lg:text-lg">
+					<td class="border border-[#3F0157] p-3 font-semibold">06/18</td>
+					<td class="border border-[#3F0157] p-3">
+						<p>Midterm Review</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<!-- <p class="text-blue-700 hover:opacity-75">
+							<a href={asset('/slides/TBA')} rel="noopener noreferrer" target="_blank"
+								>TBA</a
+							>
+						</p> -->
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold"></td>
+					<td class="border border-[#3F0157] p-3 font-bold">
+						<button
+							use:tooltip={{
+								content: `<div class='text-center text-[#FCB827] p-2'>
+									<div>Iterators</div>
+									<div>Sorting</div>
+								</div>`,
+								html: true,
+								placement: 'top',
+								offset: 15
+							}}
+							class="cursor-pointer text-[#3F0157] hover:opacity-75"
+						>
+							Quiz 5
+						</button>
+					</td>
+				</tr>
+				<tr class="md:text-md text-sm lg:text-lg">
 					<td class="border border-[#3F0157] p-3 font-semibold">06/20</td>
 					<td class="border border-[#3F0157] p-3">
 						<p>N/A</p>
