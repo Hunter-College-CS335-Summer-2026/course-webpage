@@ -463,12 +463,6 @@
 					<td class="border border-[#3F0157] p-3 font-semibold">
 						<p class="text-blue-700 hover:opacity-75">
 							<a
-								href="https://colab.research.google.com/drive/1Ao9AIOC_unVk2s4C7hwyu020mUSrgTct?usp=sharing"
-								target="_blank">Sorting Demo</a
-							>
-						</p>
-						<p class="text-blue-700 hover:opacity-75">
-							<a
 								href="https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html"
 								rel="noopener noreferrer"
 								target="_blank">Sorting Visualization</a
@@ -480,22 +474,30 @@
 				<tr class="md:text-md text-sm lg:text-lg">
 					<td class="border border-[#3F0157] p-3 font-semibold">06/18</td>
 					<td class="border border-[#3F0157] p-3">
+						<p>Sorting (cont.)</p>
 						<p>Midterm Review</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
-						<!-- <p class="text-blue-700 hover:opacity-75">
-							<a href={asset('/slides/TBA')} rel="noopener noreferrer" target="_blank"
-								>TBA</a
+						<p class="text-blue-700 hover:opacity-75">
+							<a href={asset('/slides/07_Sorting.pdf')} rel="noopener noreferrer" target="_blank"
+								>Sorting</a
 							>
-						</p> -->
+						</p>
 					</td>
-					<td class="border border-[#3F0157] p-3 font-semibold"></td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href="https://colab.research.google.com/drive/1Ao9AIOC_unVk2s4C7hwyu020mUSrgTct?usp=sharing"
+								target="_blank">Sorting Demo</a
+							>
+						</p>
+					</td>
 					<td class="border border-[#3F0157] p-3 font-bold">
 						<button
 							use:tooltip={{
 								content: `<div class='text-center text-[#FCB827] p-2'>
 									<div>Iterators</div>
-									<div>Sorting</div>
+									<div>Sorting (upto slide 40)</div>
 								</div>`,
 								html: true,
 								placement: 'top',
