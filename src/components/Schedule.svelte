@@ -529,6 +529,23 @@
 				</tr>
 				<tr class="md:text-md text-sm lg:text-lg">
 					<td class="border border-[#3F0157] p-3 font-semibold">06/22</td>
+					<td class="border border-[#3F0157] p-3">
+						<p>Midterm Review</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href={asset('/slides/Midterm_Format.pdf')}
+								rel="noopener noreferrer"
+								target="_blank">Midterm Format</a
+							>
+						</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold"></td>
+					<td class="border border-[#3F0157] p-3 font-bold"></td>
+				</tr>
+				<tr class="md:text-md text-sm lg:text-lg">
+					<td class="border border-[#3F0157] p-3 font-semibold">06/23</td>
 					<td class="border border-[#3F0157] p-3 font-bold text-red-700">
 						<p>MIDTERM</p>
 					</td>
