@@ -479,7 +479,7 @@
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
 						<p class="text-blue-700 hover:opacity-75">
-							<a href={asset('/slides/07_Sorting.pdf')} rel="noopener noreferrer" target="_blank"
+							<a href={asset('/slides/CS335_Sorting.pdf')} rel="noopener noreferrer" target="_blank"
 								>Sorting</a
 							>
 						</p>
