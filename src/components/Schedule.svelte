@@ -455,7 +455,7 @@
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
 						<p class="text-blue-700 hover:opacity-75">
-							<a href={asset('/slides/07_Sorting.pdf')} rel="noopener noreferrer" target="_blank"
+							<a href={asset('/slides/CS335_Sorting.pdf')} rel="noopener noreferrer" target="_blank"
 								>Sorting</a
 							>
 						</p>
@@ -555,6 +555,61 @@
 					</td>
 					<td class="border border-[#3F0157] p-3 font-bold text-red-700">
 						<p>MIDTERM</p>
+					</td>
+				</tr>
+				<tr class="md:text-md text-sm lg:text-lg">
+					<td class="border border-[#3F0157] p-3 font-semibold">06/24</td>
+					<td class="border border-[#3F0157] p-3">
+						<p>Splay Trees</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href={asset('/slides/07_Splay_Trees.pdf')}
+								rel="noopener noreferrer"
+								target="_blank">Splay Trees</a
+							>
+						</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href="https://www.cs.usfca.edu/~galles/visualization/SplayTree.html"
+								rel="noopener noreferrer"
+								target="_blank">Splay Visualization</a
+							>
+						</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-bold"></td>
+				</tr>
+				<tr class="md:text-md text-sm lg:text-lg">
+					<td class="border border-[#3F0157] p-3 font-semibold">06/25</td>
+					<td class="border border-[#3F0157] p-3">
+						<!-- <p>TBA</p> -->
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<!-- <p class="text-blue-700 hover:opacity-75">
+							<a href={asset('/slides/TBA.pdf')} rel="noopener noreferrer" target="_blank"
+								>TBA</a
+							>
+						</p> -->
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold"></td>
+					<td class="border border-[#3F0157] p-3 font-bold">
+						<button
+							use:tooltip={{
+								content: `<div class='text-center text-[#FCB827] p-2'>									
+									<div>Sorting (after slide 40)</div>
+									<div>Splay Trees</div>
+								</div>`,
+								html: true,
+								placement: 'top',
+								offset: 15
+							}}
+							class="cursor-pointer text-[#3F0157] hover:opacity-75"
+						>
+							Quiz 6
+						</button>
 					</td>
 				</tr>
 				<tr class="md:text-md text-sm lg:text-lg">
