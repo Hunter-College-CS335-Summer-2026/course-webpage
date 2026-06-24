@@ -600,6 +600,7 @@
 							use:tooltip={{
 								content: `<div class='text-center text-[#FCB827] p-2'>									
 									<div>Sorting (after slide 40)</div>
+									<div>Sorting Theory</div>
 									<div>Splay Trees</div>
 								</div>`,
 								html: true,
