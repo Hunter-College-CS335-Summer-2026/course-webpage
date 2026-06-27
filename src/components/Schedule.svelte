@@ -585,14 +585,16 @@
 				<tr class="md:text-md text-sm lg:text-lg">
 					<td class="border border-[#3F0157] p-3 font-semibold">06/25</td>
 					<td class="border border-[#3F0157] p-3">
-						<!-- <p>TBA</p> -->
+						<p>Dynamic Programming</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
-						<!-- <p class="text-blue-700 hover:opacity-75">
-							<a href={asset('/slides/TBA.pdf')} rel="noopener noreferrer" target="_blank"
-								>TBA</a
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href={asset('/slides/00_DynamicProgramming.pdf')}
+								rel="noopener noreferrer"
+								target="_blank">Dynamic Programming</a
 							>
-						</p> -->
+						</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold"></td>
 					<td class="border border-[#3F0157] p-3 font-bold">
@@ -611,6 +613,79 @@
 						>
 							Quiz 6
 						</button>
+					</td>
+				</tr>
+				<tr class="md:text-md text-sm lg:text-lg">
+					<td class="border border-[#3F0157] p-3 font-semibold">06/24</td>
+					<td class="border border-[#3F0157] p-3">
+						<p>B+ Trees</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<!-- <p class="text-blue-700 hover:opacity-75">
+							<a
+								href={asset('/slides/08_B+_Trees.pdf')}
+								rel="noopener noreferrer"
+								target="_blank">B+ Trees</a
+							>
+						</p> -->
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href="https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html"
+								rel="noopener noreferrer"
+								target="_blank">B+ Visualization</a
+							>
+						</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-bold"></td>
+				</tr>
+				<tr class="md:text-md text-sm lg:text-lg">
+					<td class="border border-[#3F0157] p-3 font-semibold">06/25</td>
+					<td class="border border-[#3F0157] p-3">
+						<!-- <p>TBA</p> -->
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<!-- <p class="text-blue-700 hover:opacity-75">
+							<a href={asset('/slides/TBA.pdf')} rel="noopener noreferrer" target="_blank"
+								>TBA</a
+							>
+						</p> -->
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold"></td>
+					<td class="border border-[#3F0157] p-3 font-bold">
+						<button
+							use:tooltip={{
+								content: `<div class='text-center text-[#FCB827] p-2'>
+									<div>Dynamic Programming</div>
+									<div>B+ Trees</div>
+								</div>`,
+								html: true,
+								placement: 'top',
+								offset: 15
+							}}
+							class="cursor-pointer text-[#3F0157] hover:opacity-75"
+						>
+							Quiz 7
+						</button>
+					</td>
+				</tr>
+				<tr class="md:text-md text-sm lg:text-lg">
+					<td class="border border-[#3F0157] p-3 font-semibold">07/05</td>
+					<td class="border border-[#3F0157] p-3">
+						<p>N/A</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold"></td>
+					<td class="border border-[#3F0157] p-3 font-semibold"></td>
+					<td class="border border-[#3F0157] p-3 font-bold">
+						<a
+							href={asset('/projects/Project_02.pdf')}
+							rel="noopener noreferrer"
+							target="_blank"
+							class="cursor-pointer text-[#3F0157] hover:opacity-75"
+						>
+							Project 2
+						</a>
 					</td>
 				</tr>
 				<tr class="md:text-md text-sm lg:text-lg">
