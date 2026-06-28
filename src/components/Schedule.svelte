@@ -534,8 +534,10 @@
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
 						<p class="text-blue-700 hover:opacity-75">
-							<a href={asset('/Midterm_Format.pdf')} rel="noopener noreferrer" target="_blank"
-								>Midterm Format</a
+							<a
+								href={asset('/Extras/Midterm_Format.pdf')}
+								rel="noopener noreferrer"
+								target="_blank">Midterm Format</a
 							>
 						</p>
 					</td>
@@ -596,7 +598,15 @@
 							>
 						</p>
 					</td>
-					<td class="border border-[#3F0157] p-3 font-semibold"></td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href={asset('/Extras/Dynamic_Programming_Practice.pdf')}
+								rel="noopener noreferrer"
+								target="_blank">Practice Problems</a
+							>
+						</p>
+					</td>
 					<td class="border border-[#3F0157] p-3 font-bold">
 						<button
 							use:tooltip={{
@@ -616,18 +626,16 @@
 					</td>
 				</tr>
 				<tr class="md:text-md text-sm lg:text-lg">
-					<td class="border border-[#3F0157] p-3 font-semibold">06/24</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">06/29</td>
 					<td class="border border-[#3F0157] p-3">
 						<p>B+ Trees</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
-						<!-- <p class="text-blue-700 hover:opacity-75">
-							<a
-								href={asset('/slides/08_B+_Trees.pdf')}
-								rel="noopener noreferrer"
-								target="_blank">B+ Trees</a
+						<p class="text-blue-700 hover:opacity-75">
+							<a href={asset('/slides/08_B+_Trees.pdf')} rel="noopener noreferrer" target="_blank"
+								>B+ Trees</a
 							>
-						</p> -->
+						</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
 						<p class="text-blue-700 hover:opacity-75">
@@ -641,7 +649,7 @@
 					<td class="border border-[#3F0157] p-3 font-bold"></td>
 				</tr>
 				<tr class="md:text-md text-sm lg:text-lg">
-					<td class="border border-[#3F0157] p-3 font-semibold">06/25</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">06/30</td>
 					<td class="border border-[#3F0157] p-3">
 						<!-- <p>TBA</p> -->
 					</td>
