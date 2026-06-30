@@ -651,14 +651,16 @@
 				<tr class="md:text-md text-sm lg:text-lg">
 					<td class="border border-[#3F0157] p-3 font-semibold">06/30</td>
 					<td class="border border-[#3F0157] p-3">
-						<!-- <p>TBA</p> -->
+						<p>Associative Containers</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold">
-						<!-- <p class="text-blue-700 hover:opacity-75">
-							<a href={asset('/slides/TBA.pdf')} rel="noopener noreferrer" target="_blank"
-								>TBA</a
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href={asset('/slides/09_Associative_Containers.pdf')}
+								rel="noopener noreferrer"
+								target="_blank">Associative Containers</a
 							>
-						</p> -->
+						</p>
 					</td>
 					<td class="border border-[#3F0157] p-3 font-semibold"></td>
 					<td class="border border-[#3F0157] p-3 font-bold">
