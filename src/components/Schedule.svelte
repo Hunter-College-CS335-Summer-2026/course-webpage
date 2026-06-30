@@ -681,6 +681,31 @@
 					</td>
 				</tr>
 				<tr class="md:text-md text-sm lg:text-lg">
+					<td class="border border-[#3F0157] p-3 font-semibold">07/01</td>
+					<td class="border border-[#3F0157] p-3">
+						<p>Hashing Introduction</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href={asset('/slides/10_Hashing_Introduction.pdf')}
+								rel="noopener noreferrer"
+								target="_blank">Hashing Introduction</a
+							>
+						</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href="https://www.cs.hunter.cuny.edu/~sweiss/course_materials/csci335/lecture_notes/chapter05.pdf"
+								rel="noopener noreferrer"
+								target="_blank">Reading(Optional)</a
+							>
+						</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-bold"></td>
+				</tr>
+				<tr class="md:text-md text-sm lg:text-lg">
 					<td class="border border-[#3F0157] p-3 font-semibold">07/05</td>
 					<td class="border border-[#3F0157] p-3">
 						<p>N/A</p>
