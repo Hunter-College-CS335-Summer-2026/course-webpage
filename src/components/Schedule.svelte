@@ -706,6 +706,27 @@
 					<td class="border border-[#3F0157] p-3 font-bold"></td>
 				</tr>
 				<tr class="md:text-md text-sm lg:text-lg">
+					<td class="border border-[#3F0157] p-3 font-semibold">07/02</td>
+					<td class="border border-[#3F0157] p-3 font-bold text-red-700">
+						<p>NO CLASS</p>
+					</td>
+					<td class="animate-pulse border border-[#3F0157] p-3 font-bold text-red-700">
+						<p>HEATWAVE</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-semibold">
+						<p class="text-blue-700 hover:opacity-75">
+							<a
+								href="https://calendly.com/sadab-hafiz52-login/30min"
+								rel="noopener noreferrer"
+								target="_blank">Online Office-Hours</a
+							>
+						</p>
+					</td>
+					<td class="border border-[#3F0157] p-3 font-bold text-red-700">
+						<p>NO CLASS</p>
+					</td>
+				</tr>
+				<tr class="md:text-md text-sm lg:text-lg">
 					<td class="border border-[#3F0157] p-3 font-semibold">07/05</td>
 					<td class="border border-[#3F0157] p-3">
 						<p>N/A</p>
